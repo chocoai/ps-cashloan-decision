@@ -11,5 +11,12 @@
 
     <artifactId>ps-cashloan-decision-service</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.adpanshi</groupId>
+            <artifactId>ps-cashloan-decision-interface</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
